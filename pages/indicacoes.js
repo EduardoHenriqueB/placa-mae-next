@@ -1,13 +1,38 @@
+import styles from '../styles/recommended.module.css';
+
 export default function Indicacoes() {
-    return (
-      <>
-        <div className="grid lg:grid-cols-3 gap-5 mb-16">
-          <div className="rounded bg-white h-40 shadow-sm"></div>
-          <div className="rounded bg-white h-40 shadow-sm"></div>
-          <div className="rounded bg-white h-40 shadow-sm"></div>
+  return (
+    <div>
+
+      {/* Header */}
+      <div className={styles.header}>
+        <img src='/logomaior.png' alt="Logo" className={styles.logo} />
+      </div>
+
+      <h3>Recomendações</h3>
+      
+      {/* Conteúdo */}
+      <div className={styles.content}>
+
+        {/* Imagem e link à esquerda */}
+        <div className={styles.leftSection}>
+          <img src='/microfone.png' alt="microfone" />
+          <a href='/podcast'>Podcast</a>
         </div>
-        <div className="grid col-1 bg-white h-96 shadow-sm"></div>
-      </>
-    );
-  }
-  
+
+        {/* Parte central */}
+        <div className={styles.centralSection}>
+          <img src='/avatarBackground.png' alt="avatar" />
+          <a href='/podcasts'>Podcast</a>
+        </div>
+
+        {/* Imagem e link à direita */}
+        <div className={styles.rightSection}>
+          <img src='/livro.png' alt="Livro" />
+          <a href='/livros'>Livros</a>
+        </div>
+      </div>
+
+    </div>
+  );
+}
