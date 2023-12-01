@@ -1,5 +1,5 @@
 import {
-  Bars3CenterLeftIcon,
+  Bars3Icon,
 } from "@heroicons/react/24/solid";
 
 export default function TopBar({ showNav, setShowNav }) {
@@ -10,8 +10,8 @@ export default function TopBar({ showNav, setShowNav }) {
       }`}
     >
       <div className="pl-4 md:pl-16">
-        <Bars3CenterLeftIcon
-          className="h-8 w-8 text-gray-700 cursor-pointer"
+        <Bars3Icon
+          className="h-8 w-8 text-orange-500 cursor-pointer"
           onClick={() => setShowNav(!showNav)}
         />
       </div>
