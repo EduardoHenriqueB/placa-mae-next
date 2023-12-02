@@ -1,0 +1,48 @@
+/* Adicione estas classes ao seu arquivo CSS ou ajuste conforme necessário */
+.header{
+    font-size: larger;
+    color: white;
+    font-weight: bold;
+}
+.title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .imageSection {
+    text-align: center;
+    margin-bottom: 6vh; /* Ajuste conforme necessário para o espaçamento entre as imagens */
+  }
+  
+  .smallImage {
+    width: 20vh; /* Ajuste o tamanho conforme necessário para as imagens pequenas */
+    height: auto;
+  }
+  
+  .centerImage {
+    width: 150px; /* Ajuste o tamanho conforme necessário para a imagem central */
+    height: auto;
+  }
+/* Adicione estas classes ao seu arquivo CSS ou ajuste conforme necessário */
+
+.centerBottom {
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 20%); /* Ajuste conforme necessário para centralizar com base no tamanho da viewport */
+  }
+  
+  
+  .largeImage {
+    width: 80vh; /* Ajuste o tamanho conforme necessário para a imagem central maior */
+    height: auto;
+    margin: 0;
+  }
+    
