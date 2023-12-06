@@ -28,7 +28,7 @@
     color: white;
     width: 50vh;
     text-align: justify;
-    line-height: 3.5vh;
+    line-height: 2.9vh;
     margin-right: 15px;
   }
   
@@ -36,6 +36,7 @@
     color: white;
     margin-left: 20px;
     width: 50vh;
+    line-height: 3.5vh;
     font-size: large;
     text-align: justify;
   }

@@ -6,30 +6,29 @@ export default function Indicacoes() {
 
       {/* Header */}
       <div className={styles.header}>
-        Recomendações
+        <img src='/logomaior.png' alt="Logo" className={styles.logo} />
       </div>
 
-      {/* Título */}
-
+      <h1 className={styles.h1}>Recomendações</h1>
       
       {/* Conteúdo */}
       <div className={styles.content}>
 
-        {/* Imagem e link à esquerda */}
-        <div className={`${styles.imageSection} ${styles.leftSection}`}>
-          <img src='/microfone.png' alt="microfone" className={styles.smallImage} />
-          <p className={styles.header}>Podcast</p>
-        </div>
-       
-        {/* Parte central */}
-        <div className={`${styles.imageSection} ${styles.centralSection} ${styles.centerBottom}`}>
-          <img src='/boneca.png' alt="avatar" className={styles.largeImage} />
+     
+        <div className={styles.leftSection}>
+          <img src='/microfone.png' alt="microfone" />
+          <a href='/podcast'>Podcast</a>
         </div>
 
-        {/* Imagem e link à direita */}
-        <div className={`${styles.imageSection} ${styles.rightSection}`}>
-          <img src='/livro.png' alt="Livro" className={styles.smallImage} />
-          <p className={styles.header}>Livros</p>
+        {/* Parte central */}
+        <div className={styles.centralSection}>
+          <img src='/avatarBackground.png' alt="avatar" />
+        </div>
+
+  
+        <div className={styles.rightSection}>
+          <img src='/livro.png' alt="Livro" />
+          <a href='/livros'>Livros</a>
         </div>
       </div>
 
