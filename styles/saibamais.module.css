@@ -1,0 +1,87 @@
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .container {
+    display: flex;
+    animation: fadeInUp 1s ease-out; /* Ajuste a duração conforme desejado */
+  }
+  
+  .texto1, .texto2, .image_wrapper {
+    animation: fadeInUp 1s ease-out; /* Ajuste a duração conforme desejado */
+  }
+  
+  .texto3, .bolinhasContainer {
+    animation: fadeInUp 1s ease-out; /* Ajuste a duração conforme desejado */
+  }
+  
+  
+  .texto1 {
+    font-size: large;
+    color: white;
+    width: 50vh;
+    text-align: justify;
+    line-height: 2.9vh;
+    margin-right: 15px;
+  }
+  
+  .texto2 {
+    color: white;
+    margin-left: 20px;
+    width: 50vh;
+    line-height: 3.5vh;
+    font-size: large;
+    text-align: justify;
+  }
+  
+  .titulo {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .texto {
+    margin-top: 20px;
+  }
+  
+  .texto3 {
+    margin-top: 20px;
+    margin-left: 0; /* ajuste o margin-left conforme necessário */
+  }
+
+  .image {
+    border: 10px solid white;
+    border-bottom: 60px solid white;
+    border-color: white;
+    border-radius: 20px;
+    width: 500px; /* Largura fixa desejada */
+    height: 500px; /* Altura fixa desejada */
+    object-fit: cover; /* Mantém a proporção da imagem ao ajustar seu tamanho */
+  }
+  
+
+  .bolinhasContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .bolinha {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .ativa {
+    background-color: rgb(251, 108, 27);
+  }
+  

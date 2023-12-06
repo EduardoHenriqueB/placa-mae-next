@@ -1,0 +1,21 @@
+/* styles/Button.module.css */
+.button {
+  position: fixed;
+  bottom: 80px; /* Altere para ajustar a posição vertical do botão */
+  right: 30px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.3s, transform 0.3s; /* Adicionado transform na transição */
+}
+
+.button:hover,
+.button:focus {
+  opacity: 1;
+  transform: scale(1.1); /* Ajuste a escala conforme necessário */
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  /* Adicione outros estilos desejados para a imagem */
+}

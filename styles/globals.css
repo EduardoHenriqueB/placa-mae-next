@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-orange-950;
+  @apply font-mono;  /* Aplica a fonte Space Mono */
+  margin: 0 auto;
+}
