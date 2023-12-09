@@ -1,36 +1,64 @@
-.quiz_container {
-    text-align: center;
-    margin-top: 50px;
-    background-color: #f8f8f8; /* Cor de fundo do container */
-    padding: 20px; /* Adicionando algum espaçamento interno */
-    border-radius: 8px; /* Adicionando bordas arredondadas */
-  }
-  
-  .question_text {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .options_container {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .option {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    background-color: #fff; 
-  }
-  
-  .option:hover {
-    background-color: #f0f0f0;
-  }
-  
-  .selected {
-    background-color: #007bff;
-    color: #fff;
-  }
-  
+/* styles/quiz.module.css */
+.quizContainer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.optionsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+.option {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.option:hover {
+  background-color: #9a9090;
+}
+
+.selected {
+  background-color: #b3e0ff; /* Azul claro para opção selecionada */
+}
+
+.correct {
+  background-color: rgb(151, 245, 111);
+}
+
+.confirmButton {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgba(251, 108, 27, 1); /* Verde para botão de confirmação */
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.confirmButton:hover {
+  background-color: rgb(164, 69, 14);
+  opacity: 0.8;
+  transform: scale(1.1); /* Move o botão ligeiramente para cima e para a esquerda para compensar o aumento de tamanho */
+}
+
+.incorrect {
+  background-color: #ff7f7f; /* Vermelho para resposta incorreta */
+}
+
+.pergunta{
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+}
