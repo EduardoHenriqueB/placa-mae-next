@@ -1,0 +1,59 @@
+/* certificado.module.css */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.certificadoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+  }
+  
+  .certificadoImage {
+    margin-top: 5px;
+    animation: fadeInUp 0.8s ease-out; 
+  }
+  
+  .certificadoImage img {
+    width: 105vh;
+    height: auto;
+    border-radius: 2vh;
+  }
+  
+  .voltarButton {
+    margin-top: 8px;
+    padding: 10px 20px;
+    background-color: rgba(251, 108, 27, 1);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; 
+    animation: fadeInUp 0.8s ease-out; /* Adicionando transição para suavizar a mudança de cor */
+  }
+  
+  .voltarButton:hover {
+    background-color: rgb(164, 69, 14);
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+    
+  .conclusao {
+    margin-top: 0 auto;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    animation: fadeInUp 0.8s ease-out; 
+  }
+  
