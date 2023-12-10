@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/router'; // Importa o useRouter do Next.js
 import styles from '../styles/quiz.module.css';
-import questions from './questions/questions';
+import questions from './questions';
 
 const Quiz = () => {
   const router = useRouter(); // Obtém o objeto de roteamento do Next.js
